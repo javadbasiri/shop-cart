@@ -1,0 +1,13 @@
+.notif{
+    width: 200px;
+    background-color: skyblue;
+    height: 80px;
+    position: fixed;
+    top: 5rem;
+    left:40%;
+    transform: translateY(-200%);
+}
+
+.active{
+    transform: translateY(0);
+}

@@ -1,0 +1,27 @@
+.filters{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    // border: 1px solid silver;
+    border-radius: 1rem;
+    padding: 1rem 5rem;
+    margin: 1.5rem auto;
+    box-shadow:inset 2px 2px 7px rgba(0,0,0,.1),
+    inset -2px -2px 7px rgba(0,0,0,.1);
+
+    option{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .filters{
+        width: 90%;
+    }
+    .filters div{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
